@@ -48,7 +48,7 @@ with st.sidebar:
 
 
    # Set your API key here directly, or fetch it from OS environment variables
-    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
 
     # Automatically store it in session state
     st.session_state.api_key = GROQ_API_KEY
